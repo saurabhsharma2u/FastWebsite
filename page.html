@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+<head>
+   
+<title>Fast page</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+ 
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+
+<link href="css/blog.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<style type="text/css">
+	body{
+		font-family: 'Noto Sans', Roboto !important;
+
+	}
+	 
+    .posted-img{
+         height:120px;
+         width: 250px;
+    }
+    @media(max-width:767px){
+          .posted-img{
+         height:auto;
+         width: 100%;
+    }
+     .mgbs-0{
+    padding-left:0px !important;
+    padding-right: 0px !important;
+  }
+    }
+</style>
+</head>
+<body>
+<div class="container-fluid">
+   <header  class="blog-header py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col-12 text-center">
+        <a class="blog-header-logo text-dark" href="#">Fast Website</a>
+        </div>
+        </div>
+        
+   </header>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+    <li class="nav-item active">
+    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link" href="#">Review</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Review</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Review</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Review</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Review</a>
+                        </li>
+
+    </ul>
+    </div>
+    </nav>
+   <br>
+  
+<br>
+   <div class="col-md-12">
+    <div class="row mb-2">
+    
+
+
+        <div class="col-md-8 mgbs-0 ">
+            <div class="col-md-12 mgbs-0 ">
+               <div class="col-md-12 mgbs-0 text-center">
+               
+                    <img class=" img-fluid" src="https://cdn.pixabay.com/photo/2015/10/21/16/44/cold-999972_960_720.jpg">
+                
+               </div>
+               <div class=" flex-md-row mb-4  ">
+                  <Br>
+                  <div class="d-flex flex-column align-items-start">
+                    <!--  <strong class="d-inline-block mb-2 text-primary">World</strong> -->
+                     <h1 class="mb-0">
+                        <a class="text-dark" href="#"><strong>How we created super fast website</strong></a>
+                     </h1>
+                     <div class="mb-1 text-muted">Jan 25, 2020</div>
+                     <p class="card-text mb-auto text-justify">
+                        I love building tools to help solve problems. I also love programming. Thanks to the Web, the tools I build can be made available to all. Even better, it’s easy to build a website that is the tool. No download required.
+
+                        <p>In this article I explore building a website from scratch considering UX, speed, mobile, SEO and AMP.</p>
+                        
+                        <p>The problem to solve</p>
+                        <p>When I write in French, I often stumble on the conjugation of a verb. Unlike English, French has funky rules. Does it finish with an “s” or a “t”? There are some grammar rules that one forgets. For instance, the verb “finir” will end with an “s” or “t” at the present tense, but without in the past tense.</p>
+                        
+                        
+                     </p>
+                  </div>
+               </div>
+            </div>
+           
+         
+        </div>
+
+<div class="col-md-4  mgbs-0">
+   
+    
+    
+    <div class="col-md-12  mgbs-0 ">	
+    <div class="card flex-md-row mb-4 box-shadow">
+    <div class="col-md-6   mgbs-0 pd-l">
+        <a href="#">
+         
+            <img class="img-fluid flex-auto posted-img" src="https://cdn.pixabay.com/photo/2015/10/21/16/44/cold-999972_960_720.jpg">
+       
+         </a>
+    </div>
+    <div class="col-md-6  mgbs-0 pd-l">
+    <div class="pdl-12 d-flex flex-column align-items-start">
+    <a href="{{URL::to('post/'.base64_encode($post->id)) }}">
+    <p class="card-text mb-auto text-dark"><strong>Super fast website</strong></p>
+    </a>
+    <div class="mb-1 text-muted"><small>Jan 25, 2020</small></div> 
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-12  mgbs-0 ">	
+        <div class="card flex-md-row mb-4 box-shadow">
+        <div class="col-md-6   mgbs-0 pd-l">
+            <a href="#">
+             
+                <img class="img-fluid flex-auto posted-img" src="https://cdn.pixabay.com/photo/2015/10/21/16/44/cold-999972_960_720.jpg">
+           
+             </a>
+        </div>
+        <div class="col-md-6  mgbs-0 pd-l">
+        <div class="pdl-12 d-flex flex-column align-items-start">
+        <a href="{{URL::to('post/'.base64_encode($post->id)) }}">
+        <p class="card-text mb-auto text-dark"><strong>Super fast website</strong></p>
+        </a>
+        <div class="mb-1 text-muted"><small>Jan 25, 2020</small></div> 
+        </div>
+        </div>
+        </div>
+        </div>
+        
+    
+    
+    </div>
+    </div>
+    </div>
+    
+
+   </div>
+   <footer class="blog-footer">
+        
+<p>All Right Reserved by Fast Website</p>
+<p>
+<a href="#">Back to top</a>
+</p>
+  
+   </footer>
+
+</body>
+</html>
